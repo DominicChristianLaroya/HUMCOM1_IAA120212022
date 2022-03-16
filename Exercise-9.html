@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>"Registration Form"</title>
+        <meta name="author" content="Dominic Christian Laroya">
+        <meta name="description" content="" />
+    </head>
+
+    <body bgcolor="black">
+        <blockquote>
+            <h1 style="text-align: center; color: hsl(69, 100%, 51%); font-family:Verdana, Geneva, Tahoma, sans-serif">Create an account now!</h1>
+            <h3 style="color: hsl(69, 100%, 51%);">Fields marked (*) are required</h3>
+            <form>
+                <fieldset style="color: hsl(69, 100%, 51%);">
+                <legend><h3 style="color: hsl(69, 100%, 51%);">Your Details</h3></legend>
+                <label >Name *</label><br>
+                <input type="text" size="35" max="30" name="Name" placeholder="Fullname" required><br>
+                <label>Email *</label><br>
+                <input type="Email" size="35" max="30" name="Email" placeholder="example: nic@gmail.com" required><br>
+                <label>Phone * </label><br>
+                <input type="tel" size="35" max="11" name="Phone" placeholder="Enter 11 digits only" required><br>
+                </fieldset></form>
+    <form>
+        <fieldset style="color: hsl(69, 100%, 51%); margin: auto;">
+            <legend><h3>Home Address</h3></legend>
+            <label>Address *</label><br>
+            <input type="text" size="35" max="" name="Address" placeholder="House/Apt Number and Street" required><br>
+            <label>District/Barangay *</label><br>
+            <input type="text" size="35" max="" name="District/Barangay" required><br>
+            <label>City *</label><br>
+            <select name="City" required>
+                <option value="N/A">N/A</option>
+                <option value="Baguio City">Baguio City</option>
+                <option value="Batangas City">Batangas City</option>
+                <option value="Cabanatuan City">Cabanatuan City</option>
+                <option value="Caloocan City">Caloocan City</option>
+                <option value="Laoag City">Laoag City</option>
+                <option value="Legaspi City">Legaspi City</option>
+                <option value="Olongapo City">Olongapo City</option>
+                <option value="Pasay City">Pasay City</option>
+                <option value="Tarlac City">Tarlac City</option>
+                <option value="Quezon City">Quezon City</option>
+              </select><br>
+
+              <label>Postal Code *</label><br>
+              <input type="tel" size="35" max="4" name="Postal Code" required><br>
+              <label>Province *</label><br>
+              <select name="Province" required>
+                <option value="N/A">N/A</option>
+                <option value="Bataan">Bataan</option>
+                <option value="Benguet">Benguet</option>
+                <option value="Bulacan">Bulacan</option>
+                <option value="Cavite">Cavite</option>
+                <option value="Ilocos Norte">Laoag City</option>
+                <option value="Ilocos Sur">Ilocos Sur</option>
+                <option value="La Union">La Union</option>
+                <option value="Masbate">Masbate</option>
+                <option value="Palawan">Palawan</option>
+                <option value="Pangasinan">Pangasinan</option>
+              </select>
+        </fieldset> </form>
+        <form>
+            <fieldset style="color: hsl(69, 100%, 51%);">
+                <legend><h3>Membership Information</h3></legend>
+                <label>Username *</label><br>
+                <input type="text" size="35" max="25" name="Username" placeholder="Enter your dedicated name" required><br>
+                <label>Password *</label><br>
+                <input type="password" size="35" max="25" name="Password"placeholder="Must contain upper, and lower case" required><br>
+                <label>Subscriptions</label><br>
+                <input type="radio" name="Subscriptions" value="Bronze">Bronze<br>
+                <input type="radio" name="Subscriptions" value="Silver">Silver<br>
+                <input type="radio" name="Subscriptions" value="Gold">Gold<br>
+                <input type="radio" name="Subscriptions" value="Platinum">Platinum<br>
+                <input type="radio" name="Subscriptions" value="Diamond">Diamond<br>
+            </fieldset>
+        </form><br>
+        <input type="button" onclick="alert('Account has been created')" value="Create now">
+</blockquote>
+</body>
+</html>
