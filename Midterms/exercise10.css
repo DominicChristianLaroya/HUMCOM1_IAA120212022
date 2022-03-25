@@ -1,0 +1,30 @@
+body{
+    background-color:rgb(241, 241, 241)
+}
+h1{
+    text-align:left
+}
+p{
+    margin-left:50px;margin-right:50px
+}
+p{
+    margin-left:50px;margin-right:50px
+}
+p{
+    margin-left:10px
+}
+p{
+    font-size:60%;font-family:Arial
+}
+p{
+    margin-left: 50px;
+}
+nav{
+    font-size:90%
+}
+footer{
+    margin-left: 60px
+}
+aside{
+    font-size:80%;font-family:Arial ; text-align:center; color: rgb(0, 0, 0);
+}
