@@ -1,4 +1,4 @@
-var myName="Dominic Laroya"
+const myName="Dminic Laroya"
 var myAge="19"
 var myPhoneNumber="09451489691"
 var myEmail="20209220@s.ubaguio.edu"
